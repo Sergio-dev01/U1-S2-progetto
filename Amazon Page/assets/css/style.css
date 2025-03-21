@@ -1,6 +1,6 @@
 /* Your styles here */
 body {
-  min-width: 1920px;
+  min-width: 1200px;
   margin: 0;
   background-color: #e9edee;
   box-sizing: border-box;
@@ -107,7 +107,7 @@ a {
 .card {
   display: inline-block;
   width: 350px;
-  margin-right: 120px;
+  margin-right: 240px;
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 10px;
