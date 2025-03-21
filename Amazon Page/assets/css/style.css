@@ -1,0 +1,160 @@
+/* Your styles here */
+body {
+  min-width: 1920px;
+  margin: 0;
+  background-color: #e9edee;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #222f3f;
+}
+
+header img {
+  height: 40px;
+  padding: 10px;
+}
+
+.navbar {
+  background-color: #364759;
+  overflow: hidden;
+  height: 3vh;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding-bottom: 2px;
+  padding-left: 0px;
+  height: 100%;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.menu li {
+  display: inline-block;
+  height: 100%;
+}
+
+.menu li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.container {
+  margin: 30px;
+}
+
+.banner-yellow {
+  background-color: #ef6706;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.banner-green {
+  background-image: url(../images/bg-image.png);
+  padding: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+  background-position: top;
+  background-position-x: center;
+}
+
+.banner-top-cards {
+  background-color: white;
+  padding-left: 20px;
+  height: 30px;
+  padding-bottom: 40px;
+}
+
+.banner-top-cards h5 {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: x-large;
+  font-weight: bold;
+}
+.banner-top-cards p,
+a {
+  display: inline-block;
+  color: #25797e;
+  font-size: medium;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.container-cards {
+  background-color: white;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 400px;
+  margin: 6px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  display: inline-block;
+  width: 350px;
+  margin-right: 120px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.banner-x {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.banner-x img {
+  width: 100%;
+}
+
+.banner-x h5,
+span {
+  display: inline;
+  margin-right: 10px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.back-top {
+  background-color: #364759;
+  padding: 1px;
+  text-align: center;
+}
+
+.back-top h5 {
+  color: white;
+}
+
+.back-top a {
+  text-decoration: 1 solid white;
+}
+
+.container a {
+  color: #1e707a;
+}
+
+footer {
+  text-align: center;
+  background-color: #222f3f;
+  padding: 20px;
+}
+footer img {
+  padding: 20px;
+  height: 50px;
+}
